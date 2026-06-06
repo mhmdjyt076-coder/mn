@@ -1,1 +1,1 @@
-echo "startxfce4" > ~/.xinitrc && sudo systemctl restart lightdm || startx
+sudo rm -f /usr/share/X11/xorg.conf.d/40-libinput.conf && sudo apt install --reinstall -y xserver-xorg-input-libinput && sudo systemctl restart lightdm || startx
