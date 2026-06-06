@@ -1,0 +1,24 @@
+```bash
+startx
+
+```
+```bash
+sudo systemctl start lightdm
+
+```
+```bash
+sudo apt update && sudo apt upgrade -y
+
+```
+```bash
+sudo apt install kali-desktop-xfce xorg lightdm -y
+
+```
+```bash
+sudo systemctl set-default graphical.target
+
+```
+```bash
+sudo reboot
+
+```
