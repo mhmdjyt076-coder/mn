@@ -1,1 +1,2 @@
-sudo systemctl set-default graphical.target && sudo reboot
+sudo apt install -y lightdm
+sudo dpkg-reconfigure lightdm
