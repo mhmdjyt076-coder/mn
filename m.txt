@@ -1,1 +1,1 @@
-sudo apt update && sudo apt install -y lightdm kali-desktop-xfce && sudo systemctl set-default graphical.target && sudo systemctl start lightdm
+echo "startxfce4" > ~/.xinitrc && sudo systemctl restart lightdm || startx
