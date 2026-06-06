@@ -1,1 +1,1 @@
-sudo systemctl start lightdm
+sudo systemctl set-default graphical.target && sudo reboot
