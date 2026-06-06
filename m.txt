@@ -1,1 +1,1 @@
-sudo apt update && sudo apt install -y kali-desktop-xfce && sudo reboot
+sudo apt update && sudo apt install -y kali-desktop-xfce 
